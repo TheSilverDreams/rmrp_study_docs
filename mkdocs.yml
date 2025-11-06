@@ -44,17 +44,23 @@ markdown_extensions:
 
 nav:
   - Руководство администратора:
-    - Начало: admin-guide/01-getting-started.md
-    - Интерфейс: admin-guide/02-interface-overview.md
-    - Создание курса: admin-guide/03-creating-course.md
-    - Редактирование курса: admin-guide/04-editing-course.md
-    - Последовательность курсов: admin-guide/05-course-prerequisites.md
-    - Создание модулей: admin-guide/06-creating-modules.md
-    - Создание вопросов: admin-guide/07-creating-questions.md
-    - Создание студентов: admin-guide/10-creating-students.md
-    - Лучшие практики: admin-guide/16-best-practices.md
-    - FAQ: admin-guide/17-faq.md
-    - Решение проблем: admin-guide/18-troubleshooting.md
+    - Начало работы:
+      - Вход в систему: admin-guide/01-getting-started.md
+      - Обзор интерфейса: admin-guide/02-interface-overview.md
+    - Управление курсами:
+      - Создание курса: admin-guide/03-creating-course.md
+      - Редактирование курса: admin-guide/04-editing-course.md
+      - Последовательность курсов: admin-guide/05-course-prerequisites.md
+      - Создание модулей: admin-guide/06-creating-modules.md
+      - Создание вопросов: admin-guide/07-creating-questions.md
+    - Управление пользователями:
+      - Создание студентов: admin-guide/10-creating-students.md
+      - Роли и права доступа: admin-guide/11-roles-and-permissions.md
+      - Матрица прав: admin-guide/12-roles-matrix.md
+    - Полезное:
+      - Лучшие практики: admin-guide/16-best-practices.md
+      - FAQ: admin-guide/17-faq.md
+      - Решение проблем: admin-guide/18-troubleshooting.md
 
 repo_url: https://github.com/TheSilverDreams/rmrp_study_docs
 repo_name: rmrp_study_docs
