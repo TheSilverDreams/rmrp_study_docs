@@ -1,0 +1,64 @@
+site_name: RMRP Platform Documentation
+site_description: Документация платформы управления обучением
+site_author: TheSilverDreams
+site_url: https://thesilverbones.github.io/rmrp-docs/
+
+theme:
+  name: material
+  language: ru
+  palette:
+    - scheme: light
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Переключиться на темный режим
+    - scheme: dark
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Переключиться на светлый режим
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search:
+      lang: ru
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+
+nav:
+  - Главная: index.md
+  - Администрирование:
+    - Начало: admin-guide/01-getting-started.md
+    - Интерфейс: admin-guide/02-interface-overview.md
+    - Создание курса: admin-guide/03-creating-course.md
+    - Редактирование курса: admin-guide/04-editing-course.md
+    - Последовательность курсов: admin-guide/05-course-prerequisites.md
+    - Создание модулей: admin-guide/06-creating-modules.md
+    - Создание вопросов: admin-guide/07-creating-questions.md
+    - Создание студентов: admin-guide/10-creating-students.md
+    - Лучшие практики: admin-guide/16-best-practices.md
+    - FAQ: admin-guide/17-faq.md
+    - Решение проблем: admin-guide/18-troubleshooting.md
+
+repo_url: https://github.com/TheSilverDreams/rmrp_study
+repo_name: rmrp_study
+edit_uri: ""
+
+copyright: Copyright &copy; 2025 TheSilverDreams
