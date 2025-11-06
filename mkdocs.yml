@@ -1,7 +1,7 @@
-site_name: RMRP Platform Documentation
-site_description: Документация платформы управления обучением
+site_name: RMRP Platform - Руководство администратора
+site_description: Полное руководство администратора платформы управления обучением
 site_author: TheSilverDreams
-site_url: https://thesilverbones.github.io/rmrp-docs/
+site_url: https://thesilverbones.github.io/rmrp_study_docs/
 
 theme:
   name: material
@@ -43,8 +43,7 @@ markdown_extensions:
   - attr_list
 
 nav:
-  - Главная: index.md
-  - Администрирование:
+  - Руководство администратора:
     - Начало: admin-guide/01-getting-started.md
     - Интерфейс: admin-guide/02-interface-overview.md
     - Создание курса: admin-guide/03-creating-course.md
@@ -57,8 +56,8 @@ nav:
     - FAQ: admin-guide/17-faq.md
     - Решение проблем: admin-guide/18-troubleshooting.md
 
-repo_url: https://github.com/TheSilverDreams/rmrp_study
-repo_name: rmrp_study
+repo_url: https://github.com/TheSilverDreams/rmrp_study_docs
+repo_name: rmrp_study_docs
 edit_uri: ""
 
 copyright: Copyright &copy; 2025 TheSilverDreams
